@@ -1,0 +1,30 @@
+@import '/src/styles/mixins';
+
+.productsContainer {
+	width: 100%;
+
+	.category {
+		font-size: 2.625rem;
+		font-family: 'Raleway-Regular';
+		font-weight: 400;
+		line-height: 68px;
+		letter-spacing: 0px;
+		text-align: left;
+	}
+
+	.productList {
+		padding-top: 80px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(200px, 386px));
+		gap: 103px 40px;
+
+		@include size-md() {
+			grid-template-columns: repeat(2, minmax(200px, 386px));
+		}
+
+		&:focus {
+			border: 1px solid black
+		}
+	}
+}

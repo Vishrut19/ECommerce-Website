@@ -1,0 +1,38 @@
+.totalContainer {
+	color: var(--color-dark);
+	font-size: 1.5em;
+
+	.item {
+		display: grid;
+		grid-template-columns: 100px 1fr;
+		gap: 4px;
+		justify-items: flex-start;
+	}
+
+	.label {
+		font-family: 'Raleway-Regular';
+		font-weight: 400;
+	}
+
+	.total {
+		font-family: 'Raleway-Medium';
+		font-weight: 500;
+	}
+
+	.value {
+		font-family: 'Raleway-Bold';
+		font-weight: 700;
+	}
+}
+
+.modal {
+	.item {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		justify-content: space-between;
+	}
+
+	.total {
+		font-size: 1rem;
+	}
+}

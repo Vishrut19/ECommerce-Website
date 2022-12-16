@@ -1,0 +1,84 @@
+@import '/src/styles/mixins';
+
+.cartProductCard {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr auto 200px;
+	grid-template-rows: 1fr;
+	gap: 40px;
+	border-bottom: 1px solid var(--color-cart-border);
+	padding: 24px 0;
+
+	.countControl {
+		display: grid;
+		grid-template-columns: 1fr;
+		align-content: space-between;
+		justify-items: center;
+
+		.countBtn {
+			width: 45px;
+			height: 45px;
+		}
+	}
+
+	.name {
+		margin-bottom: 24px;
+	}
+
+	.price {
+		margin-bottom: 20px;
+	}
+
+	.size {
+		margin-bottom: 16px;
+	}
+
+}
+
+.modal {
+	border-bottom: none;
+	height: 100%;
+	display: grid;
+	grid-template: "details . control . img";
+	grid-template-columns: 136px 4px 24px 8px 1fr;
+	grid-template-rows: 1fr;
+	gap: 8px;
+	padding: 16px 0;
+
+	.productDetails {
+		grid-area: details;
+	}
+
+	.countControl {
+		grid-area: control;
+		display: grid;
+		grid-template-columns: 1fr;
+		align-content: space-between;
+		justify-items: center;
+
+		.countBtn {
+			width: 24px;
+			height: 24px;
+
+			.btnCountIcon {
+				width: 8px
+			}
+		}
+	}
+
+	.imgContainer {
+		grid-area: img;
+	}
+
+	.name {
+		margin-bottom: 4px;
+	}
+
+	.price {
+		margin-bottom: 8px;
+	}
+
+	.size {
+		margin-bottom: 8px;
+	}
+}

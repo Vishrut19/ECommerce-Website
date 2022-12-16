@@ -1,0 +1,109 @@
+
+@font-face {
+  font-family: 'Raleway-Ligh';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../src/fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../src/fonts/Raleway-Regular.ttf');
+}
+	  
+@font-face {
+	font-family: 'Raleway-Medium';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../src/fonts/Raleway-Medium.ttf');
+}
+		  
+@font-face {
+	font-family: 'Raleway-SemiBold';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../src/fonts/Raleway-SemiBold.ttf');
+}
+		  
+@font-face {
+	font-family: 'Raleway-Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../src/fonts/Raleway-Bold.ttf');
+}
+			  
+@font-face {
+	font-family: 'RobotoCondensed-Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../src/fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'SourceSansPro-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../src/fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../src/fonts/Roboto-Regular.ttf');
+
+}
+
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	src: url('../src/fonts/Raleway-Regular.ttf');
+}
+
+
+:root{
+	--color-background: #fff;
+	--color-white: #fff;
+	--color-black: #000;
+	--color-dark: #1D1F22;
+	--color-green: #5ECE7B;
+	--color-disable: #acacac;
+	--color-cart-border: #E5E5E5;
+	--color-ligt-gray: #EEE;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+  	color: inherit;
+}
+
+ul, li {
+	list-style: none;
+	cursor: pointer;
+}
+
+button {
+  	cursor: pointer;
+	background: none;
+}
+
+
+* {
+	vertical-align: baseline;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	padding:0;
+}

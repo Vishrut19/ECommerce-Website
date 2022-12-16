@@ -1,0 +1,34 @@
+.modalContainer {
+	z-index: 50;
+	position: absolute;
+	top: 65px;
+	right: 175px;
+	background-color: var(--color-white);
+	color: var(--color-dark);
+	max-width: 114px;
+
+	.item {
+		margin-bottom: 2px;
+		font-size: 1.125rem;
+		font-family: 'Raleway-Medium';
+		font-weight: 500;
+		line-height: 160%;
+		padding: 0 20px;
+		height: 45px;
+		width: 100%;
+		text-align: center;
+		line-height: 45px;
+		background-color: var(--color-white);
+
+		&:hover {
+			background-color: var(--color-ligt-gray);
+		}
+	}
+
+	.active {
+		background-color: var(--color-ligt-gray);
+		;
+	}
+
+
+}

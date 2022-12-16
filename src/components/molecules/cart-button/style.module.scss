@@ -1,0 +1,23 @@
+.cartButton {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	background: transparent;
+
+	.quantity {
+		position: absolute;
+		top: -14px;
+		left: 10px;
+		width: 25px;
+		height: 25px;
+		align-items: center;
+		line-height: 26px;
+		border-radius: 50%;
+		background-color: var(--color-black);
+		color: var(--color-white);
+		font-size: 1rem;
+		font-family: 'RobotoCondensed-Bold';
+		font-style: normal;
+		font-weight: 700;
+	}
+}

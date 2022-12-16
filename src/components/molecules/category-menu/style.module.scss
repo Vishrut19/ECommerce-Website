@@ -1,0 +1,26 @@
+.wrapper ul {
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min-content, 0px));
+	grid-template-rows: 1fr;
+	justify-content: left;
+
+	.item {
+		height: 52px;
+		display: inline-block;
+		padding-left: 16px;
+		padding-right: 16px;
+		font-family: 'Raleway-Regular';
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1rem;
+	}
+
+	.active {
+		font-family: 'Raleway-SemiBold';
+		font-weight: 600;
+		border-bottom: 2px solid var(--color-green);
+		color: var(--color-green)
+	}
+
+}

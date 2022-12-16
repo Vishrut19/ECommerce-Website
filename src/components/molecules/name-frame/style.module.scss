@@ -1,0 +1,58 @@
+.nameContainer {
+	font-family: 'Raleway-Ligh';
+	line-height: 160%;
+	font-weight: 300;
+}
+
+.small {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	gap: 10px;
+	justify-items: start;
+
+	.nameProduct,
+	.brandProduct {
+		font-size: 1rem;
+		line-height: 100%;
+	}
+}
+
+.horizontal {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 1ch;
+	justify-items: start;
+	justify-content: left;
+
+	.nameProduct,
+	.brandProduct {
+		font-family: 'Raleway-Ligh';
+		line-height: 160%;
+		font-weight: 300;
+		font-size: 1.125rem;
+		;
+	}
+}
+
+.big {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	gap: 16px;
+	justify-items: start;
+	font-size: 1.875rem;
+	line-height: 1.6875rem;
+
+	.brandProduct {
+		font-family: 'Raleway-SemiBold';
+		font-weight: 600;
+	}
+
+	.nameProduct {
+		font-family: 'Raleway-Regular';
+		font-weight: 400;
+	}
+}
+
+.disable {
+	color: var(--color-disable);
+}

@@ -1,0 +1,96 @@
+@import '/src/styles/mixins';
+
+.containerPDP {
+
+	width: 100%;
+	display: grid;
+	grid-template-columns: 80px auto 80px;
+	grid-template-rows: minmax(0, 80vh);
+	gap: 40px;
+
+	@include size-xl() {
+		gap: 20px;
+		grid-template-columns: 80px auto;
+	}
+
+	img {
+		width: 100%;
+		object-fit: scale-down;
+		margin: 0 auto;
+	}
+
+	.gallery {
+		display: grid;
+		grid-template-columns: 77px;
+		grid-template-rows: repeat(auto-fill, 77px);
+		gap: 32px;
+		overflow: auto;
+
+		.galleryItem {
+			margin: 2px;
+		}
+	}
+
+	.productDetailCard {
+		display: grid;
+		grid-template-columns: 1fr minmax(auto, 292px);
+		align-items: flex-start;
+		gap: 100px;
+
+		@include size-xl() {
+			gap: 50px;
+			grid-template-columns: 2fr 1fr
+		}
+
+		@include size-md() {
+			grid-template-columns: 1fr;
+		}
+
+		.productDetails {
+			height: 100%;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+
+
+			.name {
+				margin-bottom: 43px;
+			}
+
+			.syze {
+				margin-bottom: 24px;
+			}
+
+			.color {
+				margin-bottom: 38px;
+			}
+
+			.price {
+				margin-top: 36px;
+				margin-bottom: 20px;
+			}
+
+
+			.addToCartBtn {
+				width: 292px;
+				height: 52px;
+				min-height: 52px;
+				margin-bottom: 40px;
+			}
+
+			.description {
+				overflow: auto;
+				font-family: 'Roboto-Regular';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 16px;
+			}
+
+			.productDetail {
+				.nameSection {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}

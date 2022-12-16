@@ -1,0 +1,84 @@
+.container {
+	margin-top: 24px;
+
+	.label {
+		font-family: RobotoCondensed-Bold;
+		font-weight: 700;
+		font-size: 18px;
+		margin-bottom: 8px;
+	}
+
+	.swatchType {
+		padding-left: 4px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 32px);
+		gap: 8px;
+
+		.btn {
+			height: 32px;
+			cursor: pointer;
+		}
+
+		.selected {
+			outline: 1px solid var(--color-green);
+			outline-offset: 2px;
+		}
+	}
+
+	.textType {
+		text-align: center;
+		font-family: SourceSansPro-Regular;
+		font-size: 16px;
+		padding-left: 2px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 63px);
+		gap: 12px;
+
+		.btn {
+			height: 45px;
+			min-width: 63px;
+			border: 1px solid var(--color-dark);
+			background-color: var(--color-background);
+			color: var(--color-dark);
+		}
+
+		.selected {
+			background-color: var(--color-dark);
+			color: var(--color-background);
+		}
+	}
+}
+
+.modal {
+	.label {
+		font-family: 'Raleway-Regular';
+		font-weight: 400;
+		font-size: 14px;
+		margin-bottom: 8px;
+	}
+
+	.btnContainer {
+		padding-left: 2px;
+		display: grid;
+		gap: 8px;
+
+		.btn {
+			padding: 0 3px;
+			height: 16px;
+			min-width: 16px;
+		}
+	}
+
+	.swatchType {
+		padding-left: 2px;
+		grid-template-columns: repeat(auto-fit, 16px);
+	}
+
+	.textType {
+		grid-template-columns: repeat(auto-fit, minmax(24px, max-content));
+
+		.btn {
+			height: 24px;
+		}
+	}
+}

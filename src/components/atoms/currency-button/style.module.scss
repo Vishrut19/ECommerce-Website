@@ -1,0 +1,26 @@
+.currencyButton {
+	z-index: 50;
+	height: 29px;
+	width: 38px;
+	display: grid;
+	grid-template-columns: 32px 6px;
+	align-items: center;
+	justify-items: center;
+	background: transparent;
+
+	.svg {
+		transition: all 0.3s;
+	}
+
+	.currencyIsShow {
+		transition: all 0.3s;
+		transform: rotate(0.5turn);
+	}
+
+	span {
+		font-family: 'Raleway-Medium';
+		font-size: 1.125rem;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+}

@@ -1,0 +1,26 @@
+.container {
+	position: relative;
+
+	.cardContent {
+		position: relative;
+		background-color: transparent;
+		height: 444px;
+		padding: 16px;
+		display: grid;
+		align-content: end;
+
+		.description {
+			padding-top: 24px;
+		}
+	}
+
+	.addCartBtn {
+		z-index: 1;
+		position: absolute;
+		right: 34px;
+		bottom: 72px;
+		background: none;
+		width: 52px;
+		height: 52px;
+	}
+}
