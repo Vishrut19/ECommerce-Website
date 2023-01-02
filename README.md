@@ -1,5 +1,9 @@
 # ECommerce Website using React and GraphQL.
 
+
+![Screen_Recording_2023-01-02_at_5_49_32_PM_AdobeExpress](https://user-images.githubusercontent.com/53470896/210232733-ddee87a1-2e71-43ff-be9f-5c14803ced6d.gif)
+
+
 This project is a basic ECommerce Website Model using React,Typescript,GraphQL, which consists of many functionalities such as :
 - It has category page for different category products like Tech,Clothes etc.
 - It has a dropdown for different currency and the value changes according to different currency selection.
