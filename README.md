@@ -26,3 +26,4 @@ During the development process, I used:
 # scandiweb-react-task-test
 # scandiweb-react-task-test
 # Scandiweb_React_Task
+# ECommerce-Website
