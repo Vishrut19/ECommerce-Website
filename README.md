@@ -1,7 +1,6 @@
 # ECommerce Website using React and GraphQL.
 
-
-![Screen_Recording_2023-01-02_at_5_49_32_PM_AdobeExpress](https://user-images.githubusercontent.com/53470896/210232733-ddee87a1-2e71-43ff-be9f-5c14803ced6d.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/53470896/210233665-da43839f-33e5-4ebd-8bcb-3ae80d4f1a35.gif)
 
 
 This project is a basic ECommerce Website Model using React,Typescript,GraphQL, which consists of many functionalities such as :
